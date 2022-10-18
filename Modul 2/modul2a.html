@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulir Perpustakaan Kota Madiun </title>
+</head>
+<body>
+        <style>
+                input[type=text]
+                {
+                        background-color:pink;
+                        color           :blueviolet;
+                }
+                #alamat
+                {
+                        background-color:green;
+                        color           : pink;
+                }
+        </style>
+    <form action="formulir.html" method="get">
+        Nama Lengkap : <input id type="text" name="nama" value="Nama Anda" />
+<br />
+        Alamat : <input id="alamat" type="text" name="alamat" value="Alamat Anda" />
+<br />
+        Jenis Kelamin : 
+        <input id type="radio" name="jenis_kelamin" value="laki-laki" checked /> 
+        Laki - Laki
+        <input id type="radio" name="jenis_kelamin" value="perempuan" /> 
+        Perempuan
+<br />
+        Tujuan ke Perpus : 
+        <input id type="checkbox" name="meminjam buku" /> Meminjam Buku
+        <input id type="checkbox" name="membaca" checked /> Membaca Buku
+        <input id type="checkbox" name="belajar" /> Belajar
+<br />
+        Asal Kota :
+        <select name="asal_kota" >
+        <option value="Kota Madiun"> Madiun </option>
+        <option value="Kabupaten Magetan"> Magetan </option>
+        <option value="Ponorogo" selected> Ponorogo </option>
+        <option value="Caruban"> Caruban </option>
+        <option value="Ngawi"> Ngawi </option>
+        <option value="Pacitan" selected> Pacitan </option>
+        </select>
+<br />
+        Kesan dan Pesan :
+<textarea name="komentar" rows="5" cols="20">
+Kesan dan Pesan Anda mengunjungi Perpus Kota Madiun
+</textarea>
+<br />
+    <input id type="submit" value="Proses" >
+</form>
+</body>
+</html>

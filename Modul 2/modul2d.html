@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulir Data Pariwisata </title>
+</head>
+<body>
+        <style>
+                input[type=text]
+                {
+                        background-color: royalblue;
+                        color           : white;
+                }
+        </style>
+    <form action=" formulir.html" method="get">
+        Tanggal : <input type="text" name="tanggal" />
+<br/>
+        Nama : <input type="text" name="nama" />
+<br />
+        Usia : <input type="text" name="usia" />
+<br/>
+        Asal : <input type="text" name="asal" />
+<br/>
+        Jenis Wisata : 
+        <input type="radio" name="jenis_wisata" value="alam" checked /> 
+        Alam
+        <input type="radio" name="jenis_wisata" value="bahari" /> 
+        Bahari
+        <input type="radio" name="jenis_wisata" value="budaya" checked /> 
+        Budaya
+        <input type="radio" name="jenis_wisata" value="pertanian" /> 
+        Pertanian
+<br />
+        Pembayaran Masuk Tempat: 
+        <select name="bayar" >
+        <option value="tunai"> Tunai </option>
+        <option value="cashless"> Cashless </option>
+        </select>
+<br />
+        Fasilitas : 
+        <input type="checkbox" name="toilet" /> Toilet
+        <input type="checkbox" name="tempat_ibadah" checked /> Tempat Ibadah
+        <input type="checkbox" name="food_court" /> Food Court
+<br />
+        Kesan :
+<textarea name="komentar" rows="5" cols="20">
+</textarea>
+<br />
+    <input type="submit" value="Proses" >
+</form>
+</body>
+</html>

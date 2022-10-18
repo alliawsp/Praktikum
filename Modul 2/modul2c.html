@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulir Klinik Sehat </title>
+</head>
+<body>
+        <style>
+                input[type=text]
+                {
+                        background-color: plum;
+                }
+        </style>
+    <form action=" formulir.html" method="get">
+        Tanggal : <input id type="text" name="tanggal" />
+<br/>
+        Nama Lengkap : <input id type="text" name="nama" />
+<br />
+        Alamat : <input id type="text" name="alamat" />
+<br />
+        NO HP : <input id type="text" name="no hp" />
+<br/>
+        Jenis Kelamin : 
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> 
+        Laki - Laki
+        <input type="radio" name="jenis_kelamin" value="perempuan" /> 
+        Perempuan
+<br />
+        Pembayaran : 
+        <select name="bayar" >
+        <option value="BPJS"> BPJS </option>
+        <option value="NON BPJS"> NON BPJS </option>
+        </select>
+<br />
+        Gejala : 
+        <input type="checkbox" name="Flu" /> Flu
+        <input type="checkbox" name="Demam" checked /> Demam
+        <input type="checkbox" name="Batuk" /> Batuk
+<br />
+        Gejala lainnya :
+<textarea name="komentar" rows="5" cols="20">
+</textarea>
+<br />
+    <input type="submit" value="Proses" >
+</form>
+</body>
+</html>

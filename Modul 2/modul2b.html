@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulir Servce Motor </title>
+</head>
+<body>
+        <style>
+                input[type=text]
+                {
+                        background-color: turquoise;
+                        color           :brown;
+                }
+                #nama
+                {
+                        background-color:pink;
+                        color           : green;
+                }
+                #no_hp
+                {
+                        background-color:pink;
+                        color           : green;
+                }
+                #tipe
+                {
+                        background-color:pink;
+                        color           : green;
+                }
+        </style>
+    <form action=" formulir.html" method="get">
+        Tanggal : <input id type="text" name="tanggal" />
+<br/>
+        Nama Lengkap : <input id="nama" type="text" name="nama" />
+<br />
+        Alamat : <input id type="text" name="alamat" />
+<br />
+        NO HP : <input id="no_hp" type="text" name="no_hp" />
+<br/>
+        No. Polisi : <input id type="text" name="nopol" />
+<br />
+        Tipe / Tahun : <input id="tipe" type="text" name="tipe" />
+<br/>
+        Layanan :
+        <input id type="checkbox" name="oli" /> 1. Ganti Oli
+        <input id type="checkbox" name="rantai" /> 2. Setel Rantai
+        <input id type="checkbox" name="rem" /> 3. Setel Rem Depan / Belakang
+        <input id type="checkbox" name="lampu" /> 4. Periksa Lampu
+        <input id type="checkbox" name="klakson" /> 5. Periksa klakson
+        <input id type="checkbox" name="injector" /> 6. System injector
+<br />
+        Pembayaran :
+        <select name="bayar" >
+        <option value="cash"> Tunai </option>
+        <option value="debit"> Debit </option>
+        </select>
+<br />
+        Keluhan Konsumen :
+<textarea name="komentar" rows="5" cols="20">
+
+</textarea>
+<br />
+        Pekerjaan :
+<textarea name="komentar" rows="10" cols="30">
+
+</textarea>
+        Estimasi Biaya :
+<textarea name="komentar" rows="10" cols="30">
+
+</textarea>
+<br />
+        Saran dari Mekanik :
+<textarea name="komentar" rows="5" cols="20">
+
+</textarea>
+<br />
+    <input id type="submit" value="Proses" >
+</form>
+</body>
+</html>
